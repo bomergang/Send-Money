@@ -1,0 +1,23 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "npm": "^6.1.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.4.0",
+    "react-minimal-pie-chart": "^3.0.2",
+    "react-number-format": "^3.3.4",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-addons-test-utils": "^15.6.2"
+  }
+}

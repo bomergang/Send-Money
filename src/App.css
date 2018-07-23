@@ -1,0 +1,87 @@
+
+h1, h3 {
+  font-family: 'Alverata-Black';
+  font-weight: bold;
+}
+
+p {
+  margin: auto;
+  font-size: 12px;
+}
+
+label {
+  margin-top: 100px;
+  font-size: 12px;
+}
+
+input {
+  line-height: 40px;
+  font-size: 16px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 2px solid grey;
+}
+
+input:focus {
+  border-bottom: 2px solid blue;
+}
+
+button {
+  color: white;
+  background-color: #4B3CFA;
+  border-radius: 25px;
+  height: 50px;
+  font-size: 16px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #311ff9;
+}
+
+td {
+  width: 33%;
+}
+
+.inputError {
+  border-bottom: 2px solid red;
+}
+
+.error {
+  color: red;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.pound::before {
+  content: "£";
+  padding: 0 5px;
+  text-align: center;
+  position: absolute;
+  line-height: 43px;
+  font-size: 16px;
+}
+
+.amount {
+  padding-left: 23px;
+}
+
+.chart {
+  height: 100px;
+}
+
+.divider {
+  border-right: 1px solid #EAEAEE;
+}
+
+.transName {
+  font-size: 16px;
+}
+
+.transAmount {
+  font-size: 20px;
+  text-align: right;
+}
